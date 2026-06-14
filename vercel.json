@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install --no-audit --no-fund --legacy-peer-deps",
+  "ignoreCommand": "bash -lc 'exit 1'",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
